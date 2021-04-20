@@ -1,0 +1,138 @@
+{
+  "name": "HS | Antheia",
+  "author": "happysolucki",
+  "options": [
+    {
+      "type": "title",
+      "text": "Look + Feel"
+    },
+    {
+      "type": "page",
+      "text": "Appearance",
+      "options": [
+        {
+          "type": "color",
+          "text": "Greeting Dot Color",
+          "default": "#b5d8ef",
+          "key": "gdc"
+        },
+        {
+          "type": "color",
+          "text": "Date Dot Color",
+          "default": "#e0c1ce",
+          "key": "ddc"
+        },
+        {
+          "type": "color",
+          "text": "Weather Dot Color",
+          "default": "#ffffaf",
+          "key": "wdc"
+        },
+        {
+          "type": "color",
+          "text": "Battery Dot Color",
+          "default": "#b5efc4",
+          "key": "bdc"
+        },
+        {
+          "type": "color",
+          "text": "Text Color",
+          "default": "#fff",
+          "key": "c-text"
+        },
+        {
+          "type": "color",
+          "text": "Background Tint",
+          "default": "#ffffff0a",
+          "key": "c-bg"
+        },
+        {
+          "type": "gap"
+        },
+       {
+          "type": "slider",
+          "min": 0.0,
+          "max": 30.0,
+          "text": "Border Radius",
+          "default": 25.0,
+          "key": "sl-br"
+        },
+        {
+          "type": "slider",
+          "min": 0.0,
+          "max": 25.0,
+          "text": "Blur Intensity",
+          "default": 15.0,
+          "key": "sl-blur"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "text": "Positioning",
+      "options": [
+        {
+          "type": "slider",
+          "min": 0.0,
+          "max": 150.0,
+          "text": "Additional Height",
+          "default": 0.0,
+          "key": "sl-ah"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "text": "Hiding Elements",
+      "options": [
+        {
+          "type": "switch",
+          "text": "Hide Weather",
+          "default": false,
+          "key": "switch_hw"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "text": "Global",
+      "options": [
+        {
+          "type": "text",
+          "text": "Username",
+          "default": "unlucki",
+          "key": "usr",
+          "placeholder": "Name",
+          "mode": "short"
+        },
+        {
+          "type": "switch",
+          "text": "Use System Font",
+          "default": false,
+          "key": "switch_sysfont"
+        },
+        {
+          "type": "comment",
+          "text": "When enabled, this widget will use your system/snowboard font instead of the one provided in the widget (Reef).\n\nThe jailbreak you use will determine which of your system or snowboard font is used (libhooker -> system only, checkra1n/unc0ver -> snowboard priority)."
+        }
+      ]
+    },
+    {
+      "type": "gap"
+    },
+    {
+      "type": "title",
+      "text": "Contributors"
+    },
+    {
+      "type": "link",
+      "text": "happysolucki",
+      "url": "https://twitter.com/happysolucki"
+    },
+    {
+      "type": "link",
+      "text": "Alo",
+      "url": "https://twitter.com/alolastmoment"
+    }
+  ]
+}

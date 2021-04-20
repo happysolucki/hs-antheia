@@ -1,0 +1,144 @@
+::root {
+  --blur: 15px;
+  --borderRadius: 25px;
+  --adjustableHeight: 26%;
+  --noWeatherHeight: 23%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 0.6875rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "reef";
+  src: url(./../assets/fonts/reef.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dock {
+  height: var(--adjustableHeight);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-family: "reef";
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  text-shadow: 1px 1px 1px rgba(100, 100, 100, 0.15);
+  background-color: var(--dockColor);
+  border-radius: var(--borderRadius);
+}
+
+.dock.hiddenWeather {
+  height: var(--noWeatherHeight);
+}
+
+.dock::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-backdrop-filter: blur(var(--blur));
+          backdrop-filter: blur(var(--blur));
+}
+
+.dock__info {
+  margin: 6.5% 8.5%;
+  color: var(--textColor);
+}
+
+.dock__entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.5em 0;
+}
+
+.dock__entry + .dock__entry {
+  margin-left: 2em;
+}
+
+.dock__bullet {
+  width: 1.125em;
+  height: 1.125em;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin-right: 1em;
+}
+
+.dock__bullet::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+
+.dock__bullet.pri::before {
+  background-color: var(--primaryAccent);
+}
+
+.dock__bullet.sec::before {
+  background-color: var(--secondaryAccent);
+}
+
+.dock__bullet.ter::before {
+  background-color: var(--tertiaryAccent);
+}
+
+.dock__bullet.qua::before {
+  background-color: var(--quarternaryAccent);
+}
+
+.dock__bullet--inner {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.dock__bullet--inner.pri {
+  background-color: var(--primaryAccent);
+}
+
+.dock__bullet--inner.sec {
+  background-color: var(--secondaryAccent);
+}
+
+.dock__bullet--inner.ter {
+  background-color: var(--tertiaryAccent);
+}
+
+.dock__bullet--inner.qua {
+  background-color: var(--quarternaryAccent);
+}
+
+.flavor--Default {
+  --primaryAccent: #b5d8ef;
+  --secondaryAccent: #e0c1ce;
+  --tertiaryAccent: #ffffaf;
+  --quarternaryAccent: #b5efc4;
+  --dockColor: #ffffff0a;
+  --textColor: #fff;
+}
+/*# sourceMappingURL=main.css.map */
