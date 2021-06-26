@@ -2,6 +2,10 @@
 
 A sleek homescreen widget
 
+![ss1](readme_images/SS1.png)
+![ss2](readme_images/SS2.png)
+![ss3](readme_images/SS3.png)
+
 ### Prerequesites
 
 > A jailbroken device
