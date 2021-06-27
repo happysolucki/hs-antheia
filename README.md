@@ -28,4 +28,4 @@ The following options can be configured:
 
 ### Note
 
-Please note that this widget doesn't include any themes, wallpapers, or any other modifications that may appear in the preview screenshots
+Please note that this widget doesn't include any themes, wallpapers, or any other modifications that may appear in the preview screenshots. Also, the other widget featured in the screenshots is HS | Blur Box; it's available at [alo.works](https://alo.works).
