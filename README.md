@@ -2,7 +2,7 @@
 
 A sleek homescreen widget
 
-<img src="readme_images/SS1.png" width="28%"> <img src="readme_images/SS2.png" width="28%"> <img src="readme_images/SS3.png" width="28%">
+<img src="readme_images/SS1.jpg" width="28%"> <img src="readme_images/SS2.jpg" width="28%"> <img src="readme_images/SS3.jpg" width="28%">
 
 ### Prerequesites
 
