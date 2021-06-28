@@ -1,4 +1,4 @@
-# HS Antheia
+# HS | Antheia
 
 A sleek homescreen widget
 
