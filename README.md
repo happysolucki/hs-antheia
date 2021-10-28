@@ -12,7 +12,7 @@ A sleek homescreen widget
 
 ### Install
 
-This widget can be installed from [alo.works](https://alo.works) as a part of the Antheia XenHTML Widgets package.
+This widget can be installed from [alo.works](https://alo.works) as a part of the Antheia XenHTML Widgets package or through the deb on the Releases tab using filza or your preferred package manager.
 
 ### Customization
 
